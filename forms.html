@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function validate(){
+        alert("Succesfully Submitted")
+    }    
+    function reset(){
+        alert("Form Resetted")
+    }
+    </script>
+</head>
+<body style= "text-align: center;">
+    <form style="background-color:cadetblue;"  method="post" onreset="validate()"  onsubmit="reset()">
+        <label>First name:</label><br>
+        <input type="text"><br>
+        <label>Last name:</label><br>
+        <input type="text"><br>
+        <label for="passwd">Password</label><br>
+        <input type="password"><br>
+        <label for="desc">Something about yourself</label><br>
+        <input type="text"><br>
+        <label for="phone number">Phone number</label><br>
+        <input type="number"><br>
+        <input type="checkbox" id="vehicle1" name="vehicle1" >
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" >
+        <label for="vehicle2"> I have a Android</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" >
+        <label for="vehicle3"> I have a Iphone</label><br>
+        <input type="button" value="Submit" >
+        <input type="reset">
+    </form>
+    
+</body>
+</html>

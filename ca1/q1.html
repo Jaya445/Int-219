@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        
+    </head>
+    <body>
+
+        <form class="jaya" style="border: 2px solid black; width: 60%" name="form">
+
+            <div>
+                <label>Full Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" class="c">
+            </div>
+            <div>
+                <label>Username:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input  type="text" name="a">
+            </div>
+            <div>
+                <label for="passwd">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" class="c" name="b">
+            </div>
+            <div>
+                <label for="repassword">Re Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="password" class="c">
+            </div>
+            <div>
+                <label for="Address">Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" class="c">
+            </div>
+            <div>
+                <label for="Age">Age:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="number" class="c" name="c">
+            </div>
+            <div>
+                <label for="Gender">Gender:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div>
+                <input type="button" value="Save" onclick="Jaya()">
+            </div>
+            
+
+
+        </form>
+        <script>
+            function Jaya(){
+                var x = document.form.a.value;
+                var y = document.form.b.value;
+                var z = document.form.c.value;
+                alert(x,y,z);
+
+                
+            }
+        </script>
+    </body>
+</html>
